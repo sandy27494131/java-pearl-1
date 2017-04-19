@@ -1,0 +1,5 @@
+对于串相关的问题，问题的接口定义的时候可以使用如下方法：
+
+1. String, List<String>, List<List<String>>适合维度比较高的算法，这样，看起来容易
+2. StringBuffer/StringBuilder,适合用来做临时缓冲，因为需要更改串
+3. char[] char[][] char[][][], 适合维度比较低的算法，接口定义简洁
